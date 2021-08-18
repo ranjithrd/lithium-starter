@@ -8,6 +8,6 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"lithium-cli": "^0.0.7"
+		"lithium-cli": "^0.0.8"
 	}
 }
