@@ -1,7 +1,7 @@
 {
-	"name": "lithium_starter",
+	"name": "hydronium",
+	"description": "A quick and easy starter.",
 	"version": "1.0.0",
-	"description": "A starter project for the Lithium CLI, the easiest way to create CLIs in JavaScript.",
 	"main": "./src/cli.js",
 	"bin": "./src/cli.js",
 	"keywords": [],

@@ -8,25 +8,24 @@ app.setConfig({
 	header: () => {
 		console.log(
 			app.colour.blueBright(
-				app.box("Your New Project Starts Here", {
+				app.box("Hydronium", {
 					padding: 1,
 					margin: 1,
 				})
 			)
 		)
-		console.log("\n")
+		// console.log("\n")
 	},
 	footer: () => {
-		console.log(
-			app.colour.redBright(
-				"Lithium -- A micro-framework for creating CLIs."
-			)
-		)
+		// console.log(
+		// 	app.colour.blueBright(
+		// 		"Hydronium"
+		// 	)
+		// )
 		console.log("\n")
 	},
 })
 
-app.import(require("./commands/greet"))
-app.import(require("./commands/bye"))
+app.import(require("./commands/new"))
 
 app.start()
