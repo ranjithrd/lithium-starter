@@ -1,7 +1,7 @@
 {
 	"name": "hydronium",
-	"description": "A quick and easy starter.",
-	"version": "1.0.0",
+	"description": "A quick and easy FullstackJS starter.",
+	"version": "0.0.1",
 	"main": "./src/cli.js",
 	"bin": "./src/cli.js",
 	"keywords": [],
